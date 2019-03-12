@@ -1,0 +1,24 @@
+caracter respuesta 
+entero nota ,n1,n2,S
+inicio
+
+ repita 
+  escriba " ingrese la nota "
+  lea nota 
+  repita 
+   escriba " desea continuar? S/N "
+     lea respuesta 
+     hasta  (respuesta='S') o (respuesta ='N')
+      escriba " programa suma"
+      escriba " ingrese primer numero"
+      lea n1
+      escriba " ingrese segundo numero"
+      lea n2
+      S<-n1+n2
+      escriba "la suma es ",S
+     hasta ( respuesta='N')
+     escriba " Que nota!!"
+     
+     
+     
+     fin 
