@@ -1,0 +1,8 @@
+entero n
+cadena [15]x
+inicio
+x<-"Rueda rico "
+n<-longitud(x)
+ escriba " la canidad de caracteres de la cadena ",x,"es:",n
+ fin
+ 
