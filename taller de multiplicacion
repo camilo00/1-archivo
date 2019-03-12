@@ -1,0 +1,26 @@
+
+entero i,j,c,numero
+caracter R
+inicio
+repita 
+
+escriba "tablas de multiplicar del 1 al 10"
+
+llamar nueva_linea 
+lea numero
+escriba " para salir dijite R si no digite enter "
+lea R
+ 
+para i<-1 Hasta numero	 haga
+para j<-1 hasta 10 haga
+c<-i*j
+escriba j,"*",i,"=",c
+llamar nueva_linea 
+
+Fin Para
+llamar nueva_linea 
+llamar nueva_linea 
+fin para 
+llamar obtener_caracter 
+hasta R='R' 
+fin
